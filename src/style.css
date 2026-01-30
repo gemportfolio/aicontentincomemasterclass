@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --fontOutfit: "Outfit", sans-serif;
+}
+
+body {
+  overflow-x: hidden !important;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  background: var(--bg-dark);
+  font-family: var(--fontOutfit);
+}
+
+#affordable,
+#bonuses,
+#pricing,
+#facilitator,
+#curriculum {
+  scroll-margin-top: 1.6rem;
+}
